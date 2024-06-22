@@ -191,19 +191,8 @@ header {
   width: 1128px;
   height: 420px;
 }
-.portfolio-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
-}
+
+
 footer {
     width: 1440px;
         height: 312px;

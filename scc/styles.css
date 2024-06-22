@@ -42,19 +42,22 @@ header {
   width: 261px;
   height: 24px;
 }
-.header-nav:hover .header-nav:focus {
+.header-nav:hover, .header-nav:focus {
   color: #404bbf;
 }
 .address {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  
   font-style: normal;
 }
-.address-item:hover .address:focus {
+.address-item {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-item:hover, .address:focus {
   color: #404bbf
 }
 h1 {

@@ -58,9 +58,9 @@ header {
     color: #434455;
 }
 .address-item:hover, .address-item:focus {
-  color: #404bbf
+  color: #404bbf;
 }
-.h1-title {
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -91,10 +91,10 @@ header {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  cursor: pointer
+  cursor: pointer;
 }
 .order-button:hover, .order-button:focus {
-  color: #404BBF
+  color: #404BBF;
 }
 h2 {
   font-weight: 700;
@@ -108,14 +108,14 @@ h2 {
   width: 1128px;
   height: 104px;
 }
-.about-us h3 {
+.about-us-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.about-us p {
+.about-us-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

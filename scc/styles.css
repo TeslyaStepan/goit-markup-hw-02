@@ -57,25 +57,27 @@ header {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-item:hover, .address:focus {
+.address-item:hover, .address-item:focus {
   color: #404bbf
 }
-h1 {
+.h1-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-.mail-section {
+.main-section {
   width: 1440px;
   height: 600px;
   background: #2e2f42;
 }
-.OrderButton {
+.order-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   display: flex;
@@ -89,6 +91,10 @@ h1 {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer
+}
+.order-button:hover, .order-button:focus {
+  color: #404BBF
 }
 h2 {
   font-weight: 700;

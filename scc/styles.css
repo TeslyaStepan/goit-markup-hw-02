@@ -94,7 +94,7 @@ header {
   cursor: pointer;
 }
 .order-button:hover, .order-button:focus {
-  color: #404BBF;
+  background-color: #404BBF;
 }
 h2 {
   font-weight: 700;

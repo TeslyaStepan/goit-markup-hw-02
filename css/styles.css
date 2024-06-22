@@ -1,12 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
   color: #434455;
   background-color: #FFFFFF;
 }
-ul {
-  list-style-type: none;
-}
+
 
 
 .logo {
@@ -79,6 +75,7 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background: #4d5ae5;
 }
 .order-button:hover, .order-button:focus {
   background-color: #404BBF;
@@ -108,8 +105,6 @@ ul {
   color: #434455;
 }
 .our-team {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
 }
 
@@ -129,8 +124,12 @@ ul {
   text-align: center;
   color: #434455;
 }
-
-
+.team-card {
+  background: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
 .footer-p {
     font-weight: 400;
         font-size: 16px;

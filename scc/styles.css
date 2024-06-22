@@ -54,7 +54,7 @@ header {
   color: #434455;
   font-style: normal;
 }
-.address:hover .address:focus {
+.address-item:hover .address:focus {
   color: #404bbf
 }
 h1 {

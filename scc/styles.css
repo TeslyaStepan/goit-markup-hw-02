@@ -11,7 +11,7 @@ header {
   width: 1440px;
   height: 72px;
 }
-.logo-part1 {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -20,7 +20,7 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo {
+.logo-part1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -42,6 +42,9 @@ header {
   width: 261px;
   height: 24px;
 }
+.header-nav:hover .header-nav:focus {
+  color: #404bbf;
+}
 .address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -49,6 +52,10 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+}
+.address:hover .address:focus {
+  color: #404bbf
 }
 h1 {
   font-weight: 700;
